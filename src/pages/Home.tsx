@@ -3,6 +3,7 @@
 import { motion } from 'motion/react';
 import type { Variants } from 'motion/react';
 import { ArrowRight, CheckCircle2, ShoppingBag, MessageSquare, Briefcase, Award, Zap, Globe, Leaf } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { PRODUCTS, SITE_INFO } from '../constants';
 
@@ -214,11 +215,13 @@ export default function Home() {
                 variants={itemVariants}
                 className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col"
               >
-                <div className="h-64 overflow-hidden">
-                  <img
+                <div className="relative h-64 overflow-hidden">
+                  <Image
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                 </div>
                 <div className="p-8 flex flex-col grow space-y-4">

@@ -2,6 +2,7 @@
 
 import { motion } from 'motion/react';
 import { ShoppingBag, ArrowRight, Star } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { PRODUCTS, SITE_INFO } from '../constants';
 
@@ -38,10 +39,13 @@ export default function Products() {
             >
               <div className="lg:w-1/2">
                 <div className="relative group overflow-hidden rounded-3xl shadow-xl aspect-square lg:aspect-auto lg:h-[500px]">
-                  <img
+                  <Image
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    fill
+                    priority={index < 2}
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-green-900/10 group-hover:bg-transparent transition-colors duration-500" />
                 </div>
