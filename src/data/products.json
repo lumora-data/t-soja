@@ -1,0 +1,66 @@
+[
+  {
+    "id": "boisson-soja",
+    "name": "Boisson rafraîchissante au soja",
+    "description": "Une boisson naturelle, légère et nutritive, idéale pour se rafraîchir tout en profitant des bienfaits du soja.",
+    "usage": "Consommation directe, pause fraîcheur, événements, points de vente.",
+    "target": "Familles, écoles, boutiques, restaurants, événements.",
+    "image": "/images/produits/boisson-rafraichissante.png"
+  },
+  {
+    "id": "lait-liquide",
+    "name": "Lait de soja liquide",
+    "description": "Un lait végétal naturel, pratique pour le petit-déjeuner, les recettes, les boissons chaudes ou la consommation directe.",
+    "usage": "Petit-déjeuner, bouillies, boissons, cuisine.",
+    "target": "Ménages, enfants, sportifs, personnes recherchant une alternative végétale.",
+    "image": "/images/produits/lait-en-liquide.png"
+  },
+  {
+    "id": "lait-poudre",
+    "name": "Lait de soja en poudre",
+    "description": "Facile à conserver et à préparer, le lait de soja en poudre est idéal pour les familles, les voyages, les boutiques et les professionnels.",
+    "usage": "Préparation de lait, bouillies, pâtisserie, boissons chaudes.",
+    "target": "Familles, boutiques, revendeurs, professionnels.",
+    "image": "/images/produits/lait-en-poudre.png"
+  },
+  {
+    "id": "farine-soja",
+    "name": "Farine de soja",
+    "description": "Une farine nutritive pouvant être utilisée dans les bouillies, pâtisseries, beignets, pains, sauces et préparations alimentaires.",
+    "usage": "Bouillies, pains, beignets, pâtisseries, sauces.",
+    "target": "Ménages, boulangeries, restaurants, transformateurs alimentaires.",
+    "image": "/images/produits/farine.png"
+  },
+  {
+    "id": "yaourt-soja",
+    "name": "Yaourt au soja",
+    "description": "Un yaourt savoureux et nutritif, pensé pour ceux qui veulent profiter d’un produit gourmand tout en restant dans une logique d’alimentation saine.",
+    "usage": "Dessert, collation, petit-déjeuner.",
+    "target": "Enfants, adultes, familles, points de vente.",
+    "image": "/images/produits/yaourt.png"
+  },
+  {
+    "id": "custard-soja",
+    "name": "Custard au soja",
+    "description": "Un produit pratique pour préparer des desserts, bouillies ou collations nutritives. Idéal pour les enfants et les familles.",
+    "usage": "Bouillies, desserts, goûters.",
+    "target": "Ménages, enfants, écoles, boutiques.",
+    "image": "/images/produits/custard.png"
+  },
+  {
+    "id": "the",
+    "name": "Thé",
+    "description": "Un thé naturel proposé par T-SOJA pour accompagner les moments de détente, le petit-déjeuner ou les pauses.",
+    "usage": "Petit-déjeuner, pause, consommation quotidienne.",
+    "target": "Particuliers, bureaux, restaurants.",
+    "image": "/images/produits/the.png"
+  },
+  {
+    "id": "huile-raffinee",
+    "name": "Huile raffinée",
+    "description": "Une huile alimentaire raffinée, adaptée à la cuisine quotidienne, aux fritures et aux préparations familiales.",
+    "usage": "Cuisson, friture, préparations culinaires.",
+    "target": "Ménages, restaurants, revendeurs.",
+    "image": "/images/produits/huile-rafine.png"
+  }
+]
